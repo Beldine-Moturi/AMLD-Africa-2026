@@ -23,41 +23,29 @@ cd Deploy_locally
 
 You can monitor the progress and debug using [`k9s`](https://k9scli.io) or similar tools.
 
-# Getting started with GEOStudio(Running inferences)
+# Getting started with GEOStudio(First steps)
 Check out and download [this notebook](./Deploy_locally/GeospatialStudio-First-Steps.ipynb) for guidance on how to get started with your first inference run!
 
 
 # GEOStudio tools and Assets shared during the presentation
 
 
-### Prithvi Models Family: ![alt text](images/image-2.png) 
+### Prithvi Models Family: <img src="images/image-2.png" alt="alt text" width="48" height="48"> 
 https://huggingface.co/ibm-nasa-geospatial
 
-### TerraMind model: ![alt text](images/image-2.png)
+### TerraMind model: <img src="images/image-2.png" alt="alt text" width="48" height="48">
 https://huggingface.co/ibm-esa-geospatial 
 
-### Terrakit: ![alt text](images/image-3.png)
+### Terrakit: <img src="images/image-3.png" alt="alt text" width="48" height="48">
 Github: https://github.com/terrastackai/terrakit
 Documentation: https://terrastackai.github.io/terrakit/
 
-### Terratorch ![alt text](images/image-1.png)
+### Terratorch <img src="images/image-1.png" alt="alt text" width="48" height="48">
 Github: https://github.com/terrastackai/terratorch
 Documentation: https://terrastackai.github.io/terratorch/stable/
 
-### GEOStudio: ![alt text](images/image.png)
+### GEOStudio: <img src="images/image.png" alt="alt text" width="48" height="48">
 Github: https://github.com/terrastackai/geospatial-studio
 Documentation: https://terrastackai.github.io/geospatial-studio/
 
-
-
-
-
-
-![alt text](images/image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-![alt text](image-3.png)
 
