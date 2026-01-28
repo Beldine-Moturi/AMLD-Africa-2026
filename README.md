@@ -23,6 +23,18 @@ Whilst not providing full performance and functionality, the studio can be deplo
 The automated shell script install the prerequisites, deploy the local dependencies (Minio, Keycloak and Postgresql), before generating the deployment configuration for the studio and then deploying the main studio services + pipelines.
 
 To deploy locally:
+
+#### Prerequisites:
+* [Lima VM](https://lima-vm.io/docs/installation/) - v1.2.1 (*currently incompatible with v2*)
+* [Helm](https://helm.sh/docs/v3/) - v3.19 (*currently incompatible with v4*)
+* [OpenShift CLI](https://docs.okd.io/4.18/cli_reference/openshift_cli/getting-started-cli.html)
+* Kubectl (bundled with above) 
+* [jq](https://github.com/jqlang/jq) - json command-line processor
+* [yq](https://github.com/mikefarah/yq) - yaml command-line processor
+
+#### Automated deployment steps
+
+
 ```sh
 git clone git@github.com:Beldine-Moturi/AMLD-Africa-2026.git
 cd Deploy_locally
@@ -39,7 +51,7 @@ You can monitor the progress and debug using [`k9s`](https://k9scli.io) or simil
 Check out and download [this notebook](./Deploy_locally/GeospatialStudio-First-Steps.ipynb) for guidance on how to get started with your first inference run!
 
 
-# GEOStudio tools and Assets shared during the presentation
+# GEOStudio tools and Assets shared during the workshop presentation
 
 
 ### GEOStudio: <img src="images/image.png" alt="alt text" width="24" height="24">
