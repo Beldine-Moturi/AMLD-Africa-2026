@@ -30,22 +30,26 @@ Check out and download [this notebook](./Deploy_locally/GeospatialStudio-First-S
 # GEOStudio tools and Assets shared during the presentation
 
 
-### Prithvi Models Family: <img src="images/image-2.png" alt="alt text" width="48" height="48"> 
+### GEOStudio: <img src="images/image.png" alt="alt text" width="24" height="24">
+Github: https://github.com/terrastackai/geospatial-studio
+
+Documentation: https://terrastackai.github.io/geospatial-studio/
+
+### Prithvi Models Family: <img src="images/image-2.png" alt="alt text" width="24" height="24"> 
 https://huggingface.co/ibm-nasa-geospatial
 
-### TerraMind model: <img src="images/image-2.png" alt="alt text" width="48" height="48">
+### TerraMind model: <img src="images/image-2.png" alt="alt text" width="24" height="24">
 https://huggingface.co/ibm-esa-geospatial 
 
-### Terrakit: <img src="images/image-3.png" alt="alt text" width="48" height="48">
+### Terrakit: <img src="images/image-3.png" alt="alt text" width="24" height="24">
 Github: https://github.com/terrastackai/terrakit
+
 Documentation: https://terrastackai.github.io/terrakit/
 
-### Terratorch <img src="images/image-1.png" alt="alt text" width="48" height="48">
+### Terratorch <img src="images/image-1.png" alt="alt text" width="24" height="24">
 Github: https://github.com/terrastackai/terratorch
+
 Documentation: https://terrastackai.github.io/terratorch/stable/
 
-### GEOStudio: <img src="images/image.png" alt="alt text" width="48" height="48">
-Github: https://github.com/terrastackai/geospatial-studio
-Documentation: https://terrastackai.github.io/geospatial-studio/
 
 
