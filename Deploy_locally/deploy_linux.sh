@@ -138,3 +138,20 @@ echo "To use kubectl/helm in new terminal sessions, run:"
 echo "  export KUBECONFIG=$HOME/.lima/studio/copied-from-guest/kubeconfig.yaml"
 echo ""
 
+
+# Update your etc hosts with the local urls
+
+# Add our internal cluster urls to etc hosts for seamless connectivity since some of the services may call these internal urls on host machine
+
+sudo echo -e "\n#lima\n127.0.0.1 keycloak.default.svc.cluster.local postgresql.default.svc.cluster.local minio.default.svc.cluster.local geofm-ui.default.svc.cluster.local geofm-gateway.default.svc.cluster.local" >> /etc/hosts
+
+
+# port forward
+kubectl port-forward -n default svc/keycloak 8080:8080 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default svc/postgresql 54320:5432 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default svc/geofm-geoserver 3000:3000 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default deployment/geofm-ui 4180:4180 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default deployment/geofm-gateway 4181:4180 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default deployment/geofm-mlflow 5000:5000 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default svc/minio 9001:9001 >> studio-pf.log 2>&1 &
+kubectl port-forward -n default svc/minio 9000:9000 >> studio-pf.log 2>&1 &
