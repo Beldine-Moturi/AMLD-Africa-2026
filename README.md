@@ -1,4 +1,4 @@
-# Using the Geospatial Exploration and Orchestration Studio (GEOStudio) for disaster mapping | AMLD Africa 2026 workshop
+# Using the Geospatial Exploration and Orchestration Studio (GEOStudio) for disaster mapping | [AMLD Africa 2026 workshop](https://mlafrica.org/event/amld-africa-2026/)
 
 This Repository contains:
 
