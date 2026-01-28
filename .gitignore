@@ -9,3 +9,6 @@ venv.bak/
 
 # cloned geospatial-studio repository
 geospatial-studio/
+
+# secrets
+*.geostudio_config_file*
